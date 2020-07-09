@@ -68,4 +68,9 @@ $ git checkout my-new-branch
 $ git checkout -b admin-panel
 
 
+Git: Remote origin already exists error 
+$ git remote set-url origin https://github.com/your/repository
+$ git remote remove origin
+
+
 
