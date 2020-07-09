@@ -1,18 +1,18 @@
 
 https://rubygarage.org/blog/most-basic-git-commands-with-examples
 
-Git: configurations
+Git: configurations < Register your username and email with local repositories
 $ git config --global user.name "King Kong"
 $ git config --global user.email "king-kong@gmail.com"
 $ git config --global color.ui true
 $ git config --list
 
-Git: starting a repository
+Git: starting a repository < Initialize a local repository
 $ git init
 Initialized empty Git repository in /home/dell/new-folder/.git/
 $ git status
 
-Git: staging files
+Git: staging files < Add and remove files to and from the staging area
 $ git add my_new_file.txt
 $ git add my-file.ts another-file.js new_file.rb
 $ git add .
@@ -22,14 +22,14 @@ $ git rm --cached my-file.ts
 $ rm 'my_file.ts'
 $ git reset another-file.js
 
-Git: commiting to a repository
+Git: commiting to a repository < Commit changes to the repository and Undo commits
 $ git commit -m "Add three files"
 $ git commit -a -m "Do something once more"
-$ git reset --soft HEAD^
+$ git reset --soft HEAD^ 
 $ git add file-i-forgot-to-add.html
 $ git commit --amend -m "Add the remaining file"
 
-Git: pulling and pushing from and to repository
+Git: pulling and pushing from and to repository < Copy your repository to a remote server such as GitHub or BitBucket
 -create a remote repository
 @https://github.com/ainkaran
 
@@ -47,7 +47,7 @@ $ git clone git@github.com:YourUsername/your-app.git this-name-is-much-better
 
 $ git pull
 
-Git: branching
+Git: branching < Control the development flow by managing branches
 $ git branch
 $ git branch user-profile
 
