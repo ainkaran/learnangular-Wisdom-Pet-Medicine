@@ -1,0 +1,4 @@
+// 20200708084556
+// https://gist.githubusercontent.com/planetoftheweb/d9756dad7378dd3ea1265a273f288f12/raw/1f03f4703da9a0133f136b27be63f375c4eb3496/interface-data.json
+
+// https://gist.githubusercontent.com/planetoftheweb/150aafdbb8b06f26b00932e9b3d441a5/raw/3093d45c7a307341806557143a3adcd946dacf29/ng-list.component.html?
